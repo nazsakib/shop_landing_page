@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(to right,#89DFFF, #A7E8FF);
+    font-family: tahoma, arial, helvetica;
+}
+.content {
+    background-image: linear-gradient(to right, #1C45D0, #00B2FB);
+    height: 700px;
+    margin: 90px;
+    overflow: hidden;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.header-area {
+    padding-top: 40px;
+}
+.header-area .logo-area img {
+    width: 100px;
+    height: auto;
+    float: left;
+    overflow: hidden;
+}
+.header-area .menu-area {
+    float: right;
+}
+.header-area .menu-area ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.header-area .nav-area .menu-area ul li {
+    float: left;
+    display: inline;
+}
+.header-area .menu-area ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 10px 25px;
+    display: block;
+    color: #A7E8FF;
+    border: 1px solid transparent;
+    text-transform: capitalize;
+    transition: 0.5s ease;
+}
+.header-area .menu-area .active {
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+}
+.header-area .menu-area ul li:hover a {
+    color: white;
+    border: 1px solid white;
+}
+.main-area {
+    padding-top: 100px;
+    margin: auto;
+}
+.main-area .buy-area {
+    width: 30%;
+    float: left;
+    overflow: hidden;
+    padding-top: 40px;
+}
+.main-area .buy-area h1 {
+    color: white;
+    font-size: 45px;
+    text-transform: capitalize;
+}
+.main-area .buy-area p {
+    color: #cbcee9;
+    line-height: 1.5;
+}
+.main-area .animated-area img {
+    width: 45%;
+    height: auto;
+    float: right;
+    animation: ud 2s linear infinite alternate;
+}
+.btn {
+    padding-top: 50px; 
+    min-height: 50px;
+    opacity: 1;
+}
+.btn a {
+    background-image: linear-gradient(to right,#FF1B83, #FFAA00);
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid #1C45D0;
+    border-radius: 20px;
+}
+.btn:hover {
+    opacity: 0.5;
+    transition: 1.5s;
+}
+
+@keyframes ud {
+    from {
+       transform: translateY(45px);
+    }
+    to {
+        transform: translateX(-45px);
+    }
+}
