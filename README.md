@@ -6,7 +6,7 @@ This template is from https://www.freepik.com/.
  * HTML
  * CSS
 
-Site Link: 
+Live Site Link: https://nazsakib.github.io/shop_landing_page/
 
 Please Have a look and any suggestions will be appreciated!
 Thank You.
